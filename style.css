@@ -8,6 +8,7 @@ body{
 
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
@@ -24,9 +25,15 @@ section{
     width: 100%;
 }
 h1{
-    font-size: 25px;
+    font-size: 50px;
 }
-.name-highlite{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlite{
     color: rgb(80, 13, 174);;
 }
 .link-button{
@@ -55,3 +62,34 @@ h1{
     font-weight: 700;
 }
 /* Dream Area CSS End */
+
+/* Experience Area CSS End */
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+#full-stake{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+/* Experience Area CSS End */
+footer P{
+    text-align: center;
+    font-size: 12px;
+}
