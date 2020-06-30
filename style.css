@@ -4,7 +4,7 @@ body{
 
 }
 
-/* Top Area CSS End */
+/* Top Section CSS Start */
 
 section{
     height: 500px;
@@ -34,7 +34,7 @@ p{
     color: dimgray;
 }
 .orange-highlite{
-    color: rgb(80, 13, 174);;
+    color: orange;
 }
 .link-button{
     text-decoration: none;
@@ -44,10 +44,10 @@ p{
     color: #ffff;
     font-weight: 700;
 }
-/* Top Area CSS End */
+/* Top Section CSS End */
 
-/* Dream Area CSS start */
-.dream-area{
+/* Dream Section CSS start */
+.dream-Section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -61,11 +61,11 @@ p{
     color: white;
     font-weight: 700;
 }
-/* Dream Area CSS End */
+/* Dream Section CSS End */
 
-/* Experience Area CSS End */
+/* Experience Section CSS Start */
 
-.experience-area{
+.experience-Section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -88,8 +88,12 @@ p{
     border-image:linear-gradient(180deg,blue, cyan);
     border-image-slice: 1;
 }
-/* Experience Area CSS End */
+/* Experience Section CSS End */
+
+/* Footer Section Css Start*/
 footer P{
     text-align: center;
     font-size: 12px;
 }
+
+/* Footer Section CSS End*/
